@@ -1,0 +1,1794 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-color: black;
+}
+.header{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    background-color: black;
+    height: 100px;
+    align-items: center;
+   
+}
+.logo p{
+    color: red;
+  
+    font-size: 18px;
+    text-shadow: 1px 1px 1px red;
+    margin-top:0px ;
+    margin-left: 65px;
+ font-family: 'Russo One', sans-serif;
+    text-shadow:8px white;
+    
+
+}
+.logo img{
+  margin-left: 95px;
+
+
+}
+.nav-bar ol{
+    display: flex;
+    padding: 10px;
+    margin-left: 200px;
+    list-style-type:none;
+   
+
+}
+.nav-bar ol li a{
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 50px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+    
+    
+}
+.nav-bar ol li a:hover{
+    color: red;
+    background-color:white;
+    padding: 6px;
+}
+.search-bar{
+  margin-left: 150px;
+  margin-top:10px ;
+
+}
+.search-bar input{
+  width: 100px;
+    border-radius: 20px;
+    border: none;
+    border-color: none;
+    height: 30px;
+    text-align: center;
+}
+
+.banner{
+    background-image:url(Assets/ban.png);
+    width: 75%;
+    height: 500px;
+    background-size: cover;
+    margin-left: 200px;
+}
+.bantext1 h4{
+    font-size: 45px;
+    color:red;
+    padding-top: 150px;
+   
+ font-family: 'Russo One', sans-serif;
+
+    
+}
+.bantext1 p{
+    width: 550px;
+    color: white;
+  padding-top: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: lighter;
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.bantext1 button{
+    color: white;
+    font-size: 16px;
+ width: 160px;
+padding: 4px;
+    background-color: red;
+    font-weight: bold;
+    transition: all;
+    transition-duration: 1s;
+   margin-top: 30px;
+   margin-left: 250px;
+   border: none;
+   border-radius: 20px;
+   height: 50px;
+    
+}
+.bantext1 button:hover{
+    background-color: red;
+    color: white;
+    transform: scale(1.2);
+}
+  
+.main h2{
+    color: white;
+    font-size: 45px;
+    margin-left:500px;
+    padding-top: 10px;
+ font-family: 'Russo One', sans-serif;
+    
+}
+.main h4{
+    font-size: 60px;
+    margin-right:60px ;
+    text-align: center;
+    margin-left: 100px;
+    color: red;
+    padding-top: 10px;
+ font-family: 'Russo One', sans-serif;
+}
+.main p{
+    width: 500px;
+    text-align: center;
+    font-size: 16px;
+  margin-left: 420px;
+  font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cards{
+    display: flex;
+   margin-left: 180px;
+   gap: 45px;
+   padding-top: -600px;
+ 
+}
+.card1{
+    border: solid 2px white;
+    color:red;
+
+   
+}
+.card1 img{
+    width: 300px;
+    height: 250px;
+    
+}
+.card1 h2{
+    font-size: 30px;
+ font-family: 'Russo One', sans-serif;
+    margin-left: 39px;
+   
+}
+.card1 p{
+   width: 250px;
+   font-size: 12px;
+    color: white;
+    text-align: center;
+    margin-left: 30px;
+    padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 10px;
+}
+.card1:hover{
+    background-color: red;
+    transform: scale(1.1);
+    color:white;
+   
+}
+
+.card2{
+    border: solid 2px white;
+    color:red;
+}
+.card2 img{
+    width: 300px;
+    height: 250px;
+}
+.card2 h2{
+    font-size: 30px;
+ font-family: 'Russo One', sans-serif;
+    margin-left: 60px;
+    
+   
+}
+.card2 p{
+    width: 250px;
+    font-size: 12px;
+     color: white;
+     text-align: center;
+     margin-left: 35px;
+     padding-top: 5px;
+     font-family: 'Roboto', sans-serif;
+     padding-bottom: 10px;
+ }
+ .card2:hover {
+    background-color: red;
+    transform: scale(1.1);
+    color: white;
+   
+}
+
+.card3{
+    border: solid 2px white;
+    color:red;
+}
+.card3 img{
+    width: 300px;
+    height: 250px;
+}
+.card3 h2{
+    font-size: 30px;
+ font-family: 'Russo One', sans-serif;
+    margin-left: 20px;
+   
+}
+.card3 p{
+    width: 250px;
+    font-size: 12px;
+     color: white;
+     text-align: center;
+     margin-left: 35px;
+     padding-top: 5px;
+     font-family: 'Roboto', sans-serif;
+     padding-bottom: 10px;
+ }
+ .card3:hover{
+    background-color: red;
+    transform: scale(1.1);
+    color:white;
+   
+}
+
+ .sec1 img{
+    width: 450px;
+    margin-top: -550px;
+    margin-left: 700px;
+   
+ }
+ .sec1{
+    margin-top: 20px;
+ }
+ .sectext1{
+    color:red;
+  margin-top: 60px;
+    font-size: 33px;
+    background-color: white;
+    transform: skewY(10deg);
+    padding: 10px;
+    width: 520px;
+    text-align: center;
+
+ }
+ .sectext1:hover{
+    background-color: red;
+    
+
+ }
+ .sectext1 h2:hover{
+    color: white;
+
+ }
+.sectext2{
+    background-color: red;
+    width: 500px;
+    margin-top: 10px;
+   
+    transform: skewY(10deg);
+    /* left: 50px; */
+
+}
+.sectext2 h4{
+    font-size: 35px;
+   margin-left: 80px;
+   color: white;
+
+}
+.sectext2 p{
+    width: 450px;
+    margin-left: 15px;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+
+
+
+}
+.sectext3{
+    background-color:red;
+    width: 500px;
+    margin-top: 10px;
+    transform: skewY(10deg);
+    padding-top: 10px;
+    /* left: 90px; */
+
+}
+.sectext3 h4{
+    font-size: 35px;
+   margin-left: 80px;
+   color: white;
+
+}
+.sectext3 p{
+    width: 450px;
+    margin-left: 15px;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.sectext4{
+    background-color: red;
+    width: 500px;
+    margin-top: 10px;
+    transform: skewY(10deg);
+    padding-top: 10px;
+    /* left: 130px; */
+
+}
+.sectext4 h4{
+    font-size: 35px;
+   margin-left: 80px;
+   color: white;
+
+}
+.sectext4 p{
+    width: 450px;
+    margin-left: 15px;
+    padding-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.ptext{
+  text-align: center;
+   margin-top: 60px;
+    color: white;
+}
+.ptext h2{
+    color: white;
+    font-size:30px;
+    padding-top: 5px;
+ font-family: 'Russo One', sans-serif;
+    text-align: center;
+}
+.ptext h4{
+    color: red;
+    font-size:50px ;
+    padding-top: 0px;
+    padding-bottom: 20px;
+ font-family: 'Russo One', sans-serif;
+  
+}
+.pricesection{
+    display: flex;
+  gap: 30PX;
+    align-items: center;
+   
+  
+}
+
+.psec1{
+    color: red;
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+   margin-left: 150px;
+   
+    margin-top: 30px;
+}
+.psec1 h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 0px;
+    color:black;
+    width: 300px;
+}
+.psec1 h4{
+    font-size: 25px;
+    font-weight: bold;
+   
+    color:white;
+    background-color: red;
+    padding: 12px;
+
+}
+.psec1 ul  {
+    text-align: center;
+    font-size:14px ;
+    padding-top: 20px;
+}
+.psec1 ul li{
+    padding-top: 3px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.psec1 h3{
+    color:white;
+    background-color:red;
+    padding: 10px;
+    font-weight: bold;
+   font-size: 16px;
+    margin-top: 20px;
+    width: 100px;
+    height: fit-content;
+    margin-left: 85px;
+    transition: all;
+    transition-duration: 1s;
+margin-bottom: 14PX;
+border-radius: 10PX;
+}
+.psec1:hover{
+    transform: scale(1.1);
+}
+.psec1 h3:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.2);
+}
+.psec2{
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    text-align: center;
+   margin-left: 50px;
+  
+    margin-top: 30px;
+}
+.psec2 h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 0px;
+    color:white;
+    width: 300px;
+}
+.psec2 h4{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 5px;
+    color:red;
+    background-color:white;
+    padding: 12px;
+
+}
+.psec2 ul  {
+    text-align: center;
+    font-size:14px ;
+    padding-top: 20px;
+}
+.psec2 ul li{
+    padding-top: 3px;
+    color:white;
+    list-style-type: disc;
+    font-family: 'Roboto', sans-serif;
+}
+.psec2 h3{
+    color:white;
+    background-color:black;
+    padding: 10px;
+    font-weight: bold;
+   font-size: 16px;
+    margin-top: 20px;
+    width: 100px;
+    height: fit-content;
+    margin-left: 85px;
+    transition: all;
+    transition-duration: 1s;
+    margin-bottom: 14PX;
+    border-radius: 10PX;
+}
+.psec2:hover{
+    transform: scale(1.1);
+}
+.psec2 h3:hover{
+    background-color:white;
+    color: red;
+    transform: scale(1.2);
+}
+.psec3{
+    color: red;
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+   margin-left: 50px;
+ 
+    margin-top: 30px;
+    margin-right: 80px;
+    
+}
+.psec3 h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 0px;
+    color:black;
+    width: 300px;
+}
+.psec3 h4{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 5px;
+    color:white;
+    background-color: red;
+    padding: 12px;
+
+}
+.psec3 ul  {
+    text-align: center;
+    font-size:14px ;
+    padding-top: 20px;
+}
+.psec3 ul li{
+    padding-top: 3px;
+    color: black;
+    list-style-type: disc;
+    font-family: 'Roboto', sans-serif;
+}
+.psec3 h3{
+    color:white;
+    background-color:red;
+    padding: 10px;
+   font-weight: bold;
+   font-size: 16px;
+    margin-top: 20px;
+    width: 100px;
+    height: fit-content;
+    margin-left: 95px;
+    transition: all;
+    transition-duration: 1s;
+    margin-bottom: 14PX;
+    border-radius: 10PX;
+}
+.psec3:hover{
+    transform: scale(1.1);
+}
+.psec3 h3:hover{
+    background-color:black  ;
+    color: white;
+    transform: scale(1.2);
+}
+.testimonial {
+  
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+  
+}
+.testimonial h2{
+    font-size: 40px;
+  
+    font-weight: bold;
+ font-family: 'Russo One', sans-serif;
+}
+.testimonial h4{
+    font-size: 50px;
+  
+    padding-top: 8px;
+    color: red;
+ font-family: 'Russo One', sans-serif;
+}
+
+.test{
+    display: flex;  
+    padding-top: 20px;
+
+  
+}
+.test1{
+   /*  background-color: white; */
+   margin-left:70px ;
+   height: fit-content;
+   width: 500px;
+
+
+}
+.test1 p{
+    
+    
+   
+    color:white;
+    margin-top:-10px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.test1 h3{
+    color:white;
+   width: 50px;
+   margin-left: 165px;
+   padding: 5px;
+   text-align: center;
+  
+ 
+   
+}
+.test1 img{
+margin-top: 30px;
+
+border-radius: 50%;
+}
+
+.test1:hover{
+    transform: scale(1.1);
+}
+.test2{
+ /*    background-color: white; */
+   margin-left:30px ;
+   height: fit-content;
+   width: 500px;
+
+}
+.test2 p{
+    
+    
+   
+    color:white;
+    margin-top: -10px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.test2 h3{
+    color:white;
+   width: 50px;
+   margin-left: 165px;
+   padding: 5px;
+  
+ 
+   
+}
+.test2 img{
+margin-top: 30px;
+
+border-radius: 50%;
+}
+
+.test2:hover{
+    transform: scale(1.1);
+}
+
+.test3{
+  /*   background-color: white; */
+   margin-left:30px ;
+   height: fit-content;
+   margin-right: 50px;
+   width: 500px;
+
+}
+.test3 p{
+    
+    
+   
+    color:white;
+    margin-top: -10px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.test3 h3{
+    color:white;
+   width: 50px;
+   margin-left: 165px;
+   padding: 5px;
+  
+ 
+   
+}
+.test3 img{
+margin-top: 30px;
+
+border-radius: 50%;
+}
+
+.test3:hover{
+    transform: scale(1.1);
+}
+.footer{
+
+
+
+display: flex;
+
+
+padding-top: 10px;
+margin-top: 60px;
+gap: 0px;
+
+
+}
+.flogo{
+
+
+   display: flex;
+
+  
+   
+}
+.flogo h2{
+    color:red;
+
+ font-family: 'Russo One', sans-serif;
+ 
+   width: 240px;
+    margin-top: 40px;
+
+}
+.flogo img{
+    
+   
+margin-top: -10px;
+position: relative;
+left: 100px;
+
+}
+.flogo p{
+    color: white;
+    margin-top: 80px;
+   margin-left: -246px;
+    font-size: 12px;
+   
+}
+.email{
+    
+    display: flex;
+    margin-top: 100px;
+    margin-left: -180PX;
+   
+}
+.email h4{
+    color: white;
+    background-color: black;
+    text-align: left;
+    padding: 5px;
+    width: 200px;
+    height: 20px;
+    border: 1px solid red;
+
+}
+.email h2{
+    color:white;
+    margin-left: 20px;
+    background-color: red;
+    padding: 6px;
+    height: 20px;
+    font-size: 16px;
+    text-align: center;
+
+   
+}
+.footer1{
+    margin-left: 30px;
+    padding-left: 120px;
+}
+.footer1 ol{
+    list-style-type: none;
+    margin-top: 40px;
+   
+    
+  
+}
+
+.footer1 ol li a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 50px;
+   
+  
+   
+   
+
+}
+.footer2{
+    margin-left: 150px;
+}
+.footer1 h2{
+    color: red;
+  
+   
+   
+    
+    
+}
+.footer2 ol{
+   
+ 
+    list-style-type: none ;
+    margin-top: 40px;
+    
+    
+   
+}
+
+.footer2 ol li a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 6px;
+    
+   
+   
+
+}
+.footer2 h2{
+    color: red;
+   
+   
+ 
+}
+.footer3 ol{
+   
+  
+   list-style-type: none;
+   margin-top: 40px;
+}
+
+.footer3 ol li a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 60px;
+    
+   
+
+}
+.footer3{
+    margin-left: 150px;
+}
+.footer3 h2{
+    color: red;
+  
+      
+}
+.copy{
+    color: rgba(255, 255, 255, 0.548);
+  text-align: center;
+    font-size: 14px;
+  margin-top: 220px;
+  margin-left: -600px;
+
+
+  
+}
+.ig{
+
+    margin-top: 250px;
+    margin-left: -240px;
+}
+.fb{
+    margin-left: 10px;
+    margin-top: 250px;
+}
+.tw{
+    margin-left: 10px;
+    margin-top: 250px;
+}
+@media screen and (max-width:500px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        background-color: black;
+    }
+    .header{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        background-color: black;
+        height: 100px;
+        align-items: center;
+    }
+    .logo p{
+        color: red;
+        margin-left: 30px;
+        font-size: 14px;
+        text-shadow: 1px 1px 1px red;
+        margin-top:0px ;
+        margin-left: 70px;
+     font-family: 'Russo One', sans-serif;
+        text-shadow:8px white;
+        width: 100px;
+    
+    }
+    .logo img{
+      margin-left: 95px;
+      width: 40px;
+      
+      height: 40px;
+    
+    }
+    .nav-bar ol{
+        display: block;
+        padding: 10px;
+        margin-left: 0px;
+        list-style-type:none;
+        position: absolute;
+        top: 80px;
+        left: 20px;
+       
+        
+    }
+    .nav-bar ol li a{
+        list-style-type: none;
+        text-decoration: none;
+        margin-left: 0px;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        font-size: 12px;
+        
+        
+    }
+    .nav-bar ol li a:hover{
+        color: red;
+        background-color:none;
+        padding: 6px;
+    }
+    
+    .search-bar{
+        margin-left: 200px;
+        margin-top:10px ;
+      
+      }
+      .search-bar input{
+        width: 80px;
+          border-radius: 20px;
+          border: none;
+          border-color: none;
+          height: 20px;
+          text-align: center;
+      }
+    
+    .banner{
+        background-image:url(Assets/ban.png);
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        margin-left: 0px;
+    }
+    .bantext1 h4{
+        font-size: 15px;
+        color:red;
+        padding-top: 120px;
+       margin-left: 90px;
+     font-family: 'Russo One', sans-serif;
+    
+        
+    }
+    .bantext1 p{
+        width: 350px;
+        color: white;
+      padding-top: 5px;
+        text-align: center;
+        font-size:10px;
+        font-weight: lighter;
+        margin-left: 30px;
+       
+    }
+    .bantext1 button{
+        color: white;
+        font-size: 8px;
+     width: 60px;
+    padding: 4px;
+        background-color: red;
+        font-weight: bold;
+        transition: all;
+        transition-duration: 1s;
+       margin-top: 10px;
+       margin-left: 180px;
+       height: 25px;
+        
+    }
+    .bantext1 button:hover{
+        background-color: red;
+        color: white;
+        transform: scale(1.2);
+    }
+      
+    .main h2{
+        color: white;
+        font-size: 14px;
+        margin-left:0px;
+        padding-top: 10px;
+     font-family: 'Russo One', sans-serif;
+        text-align: center;
+        
+    }
+    .main h4{
+        font-size: 20px;
+        margin-right:60px ;
+        text-align: center;
+        margin-left: 80px;
+        color: red;
+        padding-top: 5px;
+     font-family: 'Russo One', sans-serif;
+    }
+    .main p{
+        width: 350px;
+        text-align: center;
+        font-size: 10px;
+      margin-left: 80px;
+        
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .cards{
+        display: block;
+       margin-left:0px;
+       gap: 0px;
+       padding-top: 0px;
+       align-items: center;
+     
+    }
+    .card1{
+        border: solid 2px red;
+        color:red;
+        width: 240px;
+        margin-left: 130px;
+        margin-top: 10px;
+    
+       
+    }
+    .card1 img{
+        width: 240px;
+        height: 150px;
+        
+    }
+    .card1 h2{
+        font-size: 12px;
+     font-family: 'Russo One', sans-serif;
+      text-align: center;
+      margin-left: -5px;
+       
+    }
+    .card1 p{
+       width: 200px;
+       font-size: 10px;
+        color: white;
+        text-align: center;
+        margin-left: 20px;
+        padding-top: 10px;
+      
+        padding-bottom: 10px;
+    }
+    .card1:hover{
+        background-color: red;
+        transform: scale(1.1);
+        color:white;
+       
+    }
+    
+    .card2{
+        border: solid 2px RED;
+        color:red;
+        width:240px;
+        margin-left: 130px;
+        margin-top: 10px;
+    }
+    .card2 img{
+        width: 240px;
+        height: 150px;
+    }
+    .card2 h2{
+        font-size: 12px;
+     font-family: 'Russo One', sans-serif;
+        text-align: center;
+        margin-left: -5px;
+        
+        
+       
+    }
+    .card2 p{
+        width: 200px;
+        font-size: 10px;
+         color: white;
+         text-align: center;
+         margin-left: 20px;
+         padding-top: 5px;
+         
+         padding-bottom: 10px;
+     }
+     .card2:hover {
+        background-color: red;
+        transform: scale(1.1);
+        color: white;
+       
+    }
+    
+    .card3{
+        border: solid 2px RED;
+        color:red;
+        width: 240px;
+        margin-left: 130px;
+        margin-top: 10px;
+    }
+    .card3 img{
+        width: 240px;
+        height: 150px;
+    }
+    .card3 h2{
+        font-size: 12px;
+     font-family: 'Russo One', sans-serif;
+        text-align: center;
+        margin-left: -5px;
+       
+    }
+    .card3 p{
+        width: 200px;
+        font-size: 10px;
+         color: white;
+         text-align: center;
+         margin-left: 20px;
+         padding-top: 5px;
+        
+         padding-bottom: 10px;
+     }
+     .card3:hover{
+        background-color: red;
+        transform: scale(1.1);
+        color:white;
+       
+    }
+    
+     .sec1 img{
+        width: 250px;
+        height: 320px;
+        margin-top: 0px;
+        margin-left: 240px;
+       
+     }
+     .sec1{
+        margin-top: -300px;
+     }
+     .sectext1{
+        color:red;
+      margin-top: 60px;
+        font-size: 14px;
+        background-color: white;
+        transform: skewY(10deg);
+        padding: 10px;
+        width: 220px;
+        text-align: center;
+    
+     }
+     .sectext1:hover{
+        background-color: red;
+        
+    
+     }
+     .sectext1 h2:hover{
+        color: white;
+    
+     }
+    .sectext2{
+        background-color: red;
+        width: 220px;
+        margin-top: 10px;
+       
+        transform: skewY(10deg);
+        /* left: 50px; */
+    
+    }
+    .sectext2 h4{
+        font-size: 15px;
+       margin-left: 40px;
+       color: white;
+    
+    }
+    .sectext2 p{
+        width: 180px;
+        margin-left: 20px;
+        padding-bottom: 10px;
+        font-size: 10px;
+        padding: 2px;
+    
+    
+    
+    }
+    .sectext3{
+        background-color:red;
+        width: 220px;
+        margin-top: 10px;
+        transform: skewY(10deg);
+        padding-top: 10px;
+        /* left: 90px; */
+    
+    }
+    .sectext3 h4{
+        font-size: 15px;
+       margin-left: 40px;
+       color: white;
+    
+    }
+    .sectext3 p{
+        width: 180px;
+        margin-left: 20px;
+        padding-bottom: 10px;
+        font-size: 10px;
+    }
+    .sectext4{
+        background-color: red;
+        width: 220px;
+        margin-top: 10px;
+        transform: skewY(10deg);
+        padding-top: 10px;
+        /* left: 130px; */
+    
+    }
+    .sectext4 h4{
+        font-size: 15px;
+       margin-left: 40px;
+       color: white;
+    
+    }
+    .sectext4 p{
+        width: 180px;
+        margin-left: 20px;
+        padding-bottom: 10px;
+        font-size: 10px;
+    }
+    .ptext{
+      text-align: center;
+       margin-top: 30px;
+        color: white;
+    }
+    .ptext h2{
+        color: white;
+        font-size:16px;
+        padding-top: 5px;
+     font-family: 'Russo One', sans-serif;
+        text-align: center;
+    }
+    .ptext h4{
+        color: red;
+        font-size:20px ;
+        padding-top: 0px;
+        padding-bottom: 20px;
+     font-family: 'Russo One', sans-serif;
+      
+    }
+    .pricesection{
+        display: block;
+      gap: 0PX;
+        align-items: center;
+       
+      
+    }
+    
+    .psec1{
+        color: red;
+        background-color: white;
+        font-size: 20px;
+        text-align: center;
+       margin-left: 150px;
+       width:200px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    .psec1 h2{
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 5px;
+        color:black;
+        width: 100px;
+        text-align: center;
+        margin-left: 45px;
+    }
+    .psec1 h4{
+        font-size: 15px;
+        font-weight: bold;
+       
+        color:white;
+        background-color: red;
+        padding: 12px;
+    
+    }
+    .psec1 ul  {
+        text-align: center;
+        font-size:10px ;
+        padding-top: 10px;
+    }
+    .psec1 ul li{
+        padding-top: 3px;
+        color: black;
+    }
+    .psec1 h3{
+        color:white;
+        background-color:red;
+        padding: 5px;
+        font-weight: bold;
+       font-size: 12px;
+        margin-top: 20px;
+        width: 100px;
+        height: fit-content;
+        margin-left: 45px;
+        transition: all;
+        transition-duration: 1s;
+       
+
+    }
+    .psec1:hover{
+        transform: scale(1.1);
+    }
+    .psec1 h3:hover{
+        background-color: black;
+        color: white;
+        transform: scale(1.2);
+    }
+    .psec2{
+        color: white;
+        background-color: red;
+        font-size: 20px;
+        text-align: center;
+       margin-left: 150px;
+      width: fit-content;
+        margin-top: 30px;
+        width: 200PX;
+    }
+    .psec2 h2{
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 5px;
+        color:white;
+        width: 200px;
+        margin-left: 0px;
+    }
+    .psec2 h4{
+        font-size: 15px;
+        font-weight: bold;
+        padding-top: 5px;
+        color:red;
+        background-color:white;
+        padding: 12px;
+    
+    }
+    .psec2 ul  {
+        text-align: center;
+        font-size:10px ;
+        padding-top: 20px;
+    }
+    .psec2 ul li{
+        padding-top: 3px;
+        color:white;
+    }
+    .psec2 h3{
+        color:white;
+        background-color:black;
+        padding: 5px;
+        font-weight: bold;
+       font-size: 12px;
+        margin-top: 20px;
+        width: 100px;
+        height: fit-content;
+        margin-left: 45px;
+        transition: all;
+        transition-duration: 1s;
+        margin-bottom: 30PX;
+    }
+    .psec2:hover{
+        transform: scale(1.1);
+    }
+    .psec2 h3:hover{
+        background-color:white;
+        color: red;
+        transform: scale(1.2);
+    }
+    .psec3{
+        color: red;
+        background-color: white;
+        font-size: 20px;
+        text-align: center;
+       margin-left: 150px;
+     width:200px;
+        margin-top: 30px;
+        margin-right: 80px;
+        
+    }
+    .psec3 h2{
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 5px;
+        color:black;
+        width: 200px;
+    }
+    .psec3 h4{
+        font-size: 15px;
+        font-weight: bold;
+        padding-top: 5px;
+        color:white;
+        background-color: red;
+        padding: 12px;
+    
+    }
+    .psec3 ul  {
+        text-align: center;
+        font-size:10px ;
+        padding-top: 20px;
+    }
+    .psec3 ul li{
+        padding-top: 3px;
+        color: black;
+    }
+    .psec3 h3{
+        color:white;
+        background-color:red;
+        padding: 5px;
+       font-weight: bold;
+       font-size: 12px;
+        margin-top: 20px;
+        width: 100px;
+        height: fit-content;
+        margin-left: 45px;
+        transition: all;
+        transition-duration: 1s;
+        margin-bottom: 20PX;
+    }
+    .psec3:hover{
+        transform: scale(1.1);
+    }
+    .psec3 h3:hover{
+        background-color:black  ;
+        color: white;
+        transform: scale(1.2);
+    }
+    .testimonial {
+      
+        color: white;
+        text-align: center;
+        margin-top: 50px;
+      
+    }
+    .testimonial h2{
+        font-size: 16px;
+      text-align: center;
+        font-weight: bold;
+     font-family: 'Russo One', sans-serif;
+    }
+    .testimonial h4{
+        font-size: 20px;
+      text-align: center;
+        padding-top: 8px;
+        color: red;
+     font-family: 'Russo One', sans-serif;
+    }
+    
+    .test{
+        display: block;  
+        padding-top: 20px;
+        margin-top: 20px;
+      
+    }
+    .test1{
+        background-color: white;
+       margin-left:75px ;
+       height: 200px;
+       width: fit-content;
+    
+    
+    }
+    .test .test1 img{
+        width: 80px;
+        height: 80px;
+    }
+    .test1 p{
+        
+        
+        background-color: white;
+        color:black;
+        margin-top:-20px;
+     font-size: 10px;
+        text-align: center;
+        width: 300px;
+        margin-left: 0px;
+    }
+    .test1 h3{
+        color: red;
+       width: 50px;
+       margin-left: 140px;
+       margin-top: 0PX;
+      
+     
+       
+    }
+    .test1 img{
+    margin-top: 8px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    }
+    
+    .test1:hover{
+        transform: scale(1.1);
+    }
+    .test2{
+        background-color: white;
+       margin-left:75px ;
+       height: 200PX;
+       margin-top: 20px;
+       width: fit-content;
+    
+    }
+    .test .test2 img{
+        width: 80px;
+        height: 80px;
+    }
+    .test2 p{
+        
+        
+        background-color: white;
+        color:black;
+        margin-top: -20px;
+     font-size: 10px;
+        text-align: center;
+        width: 300px;
+        margin-left: 0px;
+    }
+    .test2 h3{
+        color: red;
+       width: 50px;
+       margin-left: 140px;
+       margin-top: 0PX;
+      
+     
+       
+    }
+    .test2 img{
+    margin-top: 8px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    }
+    
+    .test2:hover{
+        transform: scale(1.1);
+    }
+    
+    .test3{
+        background-color: white;
+       margin-left:75px ;
+       height: 200PX;
+       margin-right: 0px;
+       margin-top: 20px;
+       width: fit-content;
+    
+    }
+    .test .test3 img{
+        width: 80px;
+        height: 80px;
+    }
+    .test3 p{
+        
+        
+        background-color: white;
+        color:black;
+        margin-top: -20px;
+     font-size: 10px;
+        text-align: center;
+        width: 300px;
+        margin-left: 0px;
+    }
+    .test3 h3{
+        color: red;
+       width: 50px;
+       margin-left: 140px;
+       margin-top: 0PX;
+      
+     
+       
+    }
+    .test3 img{
+    margin-top: 8px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    }
+    
+    .test3:hover{
+        transform: scale(1.1);
+    }
+    .footer{
+    
+    
+    
+    display: flex;
+    
+    
+    padding-top: 10px;
+    margin-top: 40px;
+    
+    
+    }
+    .flogo{
+    
+    
+       display: flex;
+    
+      
+       
+    }
+    .flogo h2{
+        color:red;
+    font-size: 12px;
+     font-family: 'Russo One', sans-serif;
+     
+     margin-left: 20px;
+        margin-top: 30px;
+    
+    }
+    .flogo img{
+        
+       
+    margin-top: 0px;
+    position: relative;
+    left: 75px;
+    width: 30px;
+    height: 30px;
+    
+    }
+    .flogo p{
+        color: white;
+        margin-top: 60px;
+      position: relative;
+      left: 0px;
+        font-size: 10px;
+        width: 200px;
+    }
+    .email{
+        
+        display: flex;
+        margin-top: 80px;
+        margin-left:-200PX;
+        width: fit-content;
+       
+    }
+    .email h4{
+        color: white;
+        background-color: black;
+        text-align: left;
+        padding: 5px;
+        width: 60px;
+        height: 8px;
+        border: 1px solid red;
+        font-size: 8px;
+    
+    }
+    .email h2{
+        color:white;
+        margin-left: 10px;
+        background-color: red;
+        padding: 5px;
+        height: 10px;
+        font-size: 8px;
+        text-align: center;
+        width: 40px;
+    
+       
+    }
+    .footer1{
+        margin-left: 50px;
+        padding-left: 0px;
+    }
+    .footer1 ol{
+        list-style-type: none;
+        margin-top: 20px;
+       
+        
+      
+    }
+    
+    .footer1 ol li a{
+        color: white;
+        list-style-type: none;
+        text-decoration: none;
+        margin-top: 30px;
+        font-size: 10px;
+       
+      
+       
+       
+    
+    }
+    .footer2{
+        margin-left: 40px;
+    }
+    .footer1 h2{
+        color: red;
+        font-size: 12px;
+      
+       
+       
+        
+        
+    }
+    .footer2 ol{
+       
+     
+        list-style-type: none ;
+        margin-top: 20px;
+        
+        
+       
+    }
+    
+    .footer2 ol li a{
+        color: white;
+        list-style-type: none;
+        text-decoration: none;
+        margin-top: 6px;
+        font-size: 10px;
+        
+       
+       
+    
+    }
+    .footer2 h2{
+        color: red;
+       font-size: 12px;
+       
+     
+    }
+    .footer3 ol{
+       
+      
+       list-style-type: none;
+       margin-top: 20px;
+    }
+    
+    .footer3 ol li a{
+        color: white;
+        list-style-type: none;
+        text-decoration: none;
+        margin-top: 30px;
+        font-size: 10px;
+        
+       
+    
+    }
+    .footer3{
+        margin-left: 40px;
+    }
+    .footer3 h2{
+        color: red;
+        font-size: 12px;
+      
+          
+    }
+    .copy{
+        color: white;
+      text-align: center;
+        font-size: 8px;
+      margin-top: 160px;
+      margin-left: -300px;
+    
+    
+      
+    }
+    .ig{
+    
+        margin-top: 180px;
+        margin-left: -150px;
+        width: 5px;
+        height: 5px;
+    }
+    .fb{
+        margin-left: 20px;
+        margin-top: 180px;
+        width: 5px;
+        height: 5px;
+    }
+    .tw{
+        margin-left: 20px;
+        margin-top: 180px;
+        width: 5px;
+        height: 5px;
+    }
+    
+    
+}
