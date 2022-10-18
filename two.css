@@ -465,7 +465,7 @@ border-radius: 10PX;
 .psec2 ul li{
     padding-top: 3px;
     color:white;
-    list-style-type: disc;
+    list-style-type: none;
     font-family: 'Roboto', sans-serif;
 }
 .psec2 h3{
