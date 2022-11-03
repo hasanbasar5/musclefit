@@ -424,9 +424,7 @@ padding: 4px;
 margin-bottom: 14PX;
 border-radius: 10PX;
 }
-.psec1:hover{
-    transform: scale(1.1);
-}
+
 .psec1 h3:hover{
     background-color: black;
     color: white;
@@ -483,9 +481,7 @@ border-radius: 10PX;
     margin-bottom: 14PX;
     border-radius: 10PX;
 }
-.psec2:hover{
-    transform: scale(1.1);
-}
+
 .psec2 h3:hover{
     background-color:white;
     color: red;
@@ -544,9 +540,7 @@ border-radius: 10PX;
     margin-bottom: 14PX;
     border-radius: 10PX;
 }
-.psec3:hover{
-    transform: scale(1.1);
-}
+
 .psec3 h3:hover{
     background-color:black  ;
     color: white;
@@ -613,9 +607,7 @@ margin-top: 30px;
 border-radius: 50%;
 }
 
-.test1:hover{
-    transform: scale(1.1);
-}
+
 .test2{
  /*    background-color: white; */
    margin-left:30px ;
@@ -648,9 +640,7 @@ margin-top: 30px;
 border-radius: 50%;
 }
 
-.test2:hover{
-    transform: scale(1.1);
-}
+
 
 .test3{
   /*   background-color: white; */
@@ -685,9 +675,7 @@ margin-top: 30px;
 border-radius: 50%;
 }
 
-.test3:hover{
-    transform: scale(1.1);
-}
+
 .footer{
 
 
